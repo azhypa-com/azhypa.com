@@ -13,7 +13,7 @@
 const isContactsPage = window.location.href.includes("contacts");
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .hero-buttons {
   display: flex;
   flex-direction: column;
