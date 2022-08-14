@@ -1,5 +1,6 @@
 :root {
   --c-brand: #fa00ce;
+  --c-accent: #ffa800;
   --c-main: #000000;
   --c-content: #ffffff;
 }
@@ -26,4 +27,22 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.btn {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #ffffff;
+  padding: 12px 24px;
+  background-color: var(--c-brand);
+  border-radius: 18px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--accent {
+  color: var(--c-main);
+  background-color: var(--c-accent);
 }

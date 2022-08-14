@@ -21,9 +21,12 @@
 
 <style scoped>
 .header {
-  background: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(20px);
+  background: rgba(0, 0, 0, 0.2);
   padding: 32px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
 }
 .nav {
   display: flex;
