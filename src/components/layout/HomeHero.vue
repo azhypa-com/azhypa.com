@@ -24,7 +24,7 @@ import HeroButtons from "@/components/HeroButtons.vue";
   </section>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .hero {
   position: relative;
   display: flex;
