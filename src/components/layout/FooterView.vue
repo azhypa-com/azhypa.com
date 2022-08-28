@@ -87,6 +87,7 @@
 
   @media (min-width: 1440px) {
     display: flex;
+    align-items: center;
     padding: 52px 84px;
   }
 }
