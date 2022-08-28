@@ -1,16 +1,15 @@
 <script setup>
-import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
 import HeaderView from "./components/layout/HeaderView.vue";
 import FooterView from "./components/layout/FooterView.vue";
-
+import ShowcasesView from "./components/showcases/ShowcasesView.vue";
 </script>
 
 <template>
   <HeaderView />
+  <Suspense>
+    <ShowcasesView />
+  </Suspense>
   <FooterView />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
